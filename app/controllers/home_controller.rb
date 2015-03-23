@@ -5,6 +5,7 @@ class HomeController < ApplicationController
     end
     def paramtest
         render text: "Param1:  "+params[:firstname]+"    Params2:"+params[:lastname]
+
     end
     
     def greet    

@@ -1,0 +1,12 @@
+<!–- scary looking code below -->
+<%= form_tag(calc_path,:method => "post") do %>      
+
+  <h2>Num 1</h2>  
+  <%= number_field_tag "num1" %>    
+
+  <h2>Num 2</h2>  
+  <%= number_field_tag "num2" %>  <br/>  
+  
+  <%= submit_tag "Submit" %>
+
+<% end %>
